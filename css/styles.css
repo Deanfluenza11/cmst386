@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00b4d8, #0077b6);  /* Smooth ombre blue */
+    color: #fff;
+    padding: 20px; /* Adds padding to the body for more space around content */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    margin-bottom: 30px;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 119, 182, 0.8);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Gallery Heading */
+.gallery h2 {
+    font-size: 2rem;
+    color: #0077b6; /* Dark blue to contrast with the white background */
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/* Intro Caption */
+.intro-caption {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f0f8f1;  /* Soft green background */
+    border-radius: 10px;
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Figure Styles for Gallery */
+.gallery figure {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery figure:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #00b4d8; /* Accent blue line */
+}
+
+figcaption {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0077b6;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 40px; /* Adds space between footer and content */
+}
